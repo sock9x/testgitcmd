@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN" "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+<struts-config>
+
+<form-beans>
+
+<form-bean name="bookActionForm" type="vovanhai.wordpress.com.BookActionForm" />
+
+</form-beans>
+
+<global-exceptions>
+
+</global-exceptions>
+
+<global-forwards>
+
+</global-forwards>
+
+<action-mappings>
+
+<action path="/book" name="bookActionForm" scope="session"
+
+type="vovanhai.wordpress.com.BookAction">
+
+<forward name="success" path="/result.jsp" />
+
+<forward name="failed" path="/Failed.jsp" />
+
+</action>
+
+</action-mappings>
+
+</struts-config>

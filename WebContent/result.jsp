@@ -15,7 +15,7 @@
 
 <h2>Hello World!</h2>
 
-<h2>Bạn đã chuyển sang trang result.jsp</h2>
+<h2>Bạn đã chuyển sang result.jsp</h2>
 
 <html:form action="book.do">
 
